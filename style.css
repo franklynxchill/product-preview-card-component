@@ -45,6 +45,7 @@
 body {
   font-family: 'Montserrat';
   background-color:  var(--Cream);
+  margin: 5rem 0;
 }
 
 h1 {
@@ -163,6 +164,9 @@ button:active {
 
 
 @media (width > 45em) {
+  body {
+    margin: unset;
+  }
   .container {
     flex-direction: row;
     background-color: blue;
